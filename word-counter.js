@@ -4,7 +4,7 @@ let sentence = "hello dear how are you now.";
 function analyzeSentence(sentence) {
   // condition - I Ensured the sentence ends with a period
   if (!sentence.endsWith(".")) {
-    console.log("The sentence must end with a period.");
+    console.log("The sentence ends with a period.");
     return;
   }
 
